@@ -52,15 +52,32 @@ Run it locally for full customization or offline use:
        ├── Ccrenata.dbf
        ├── ... (all map files)
    ```
-3. **Install R Packages**:
+   3. **BLAST+ Configuration** 🔧 (**Critical!**)  
+#### 🪟 **Windows Users**  
+- Use `blastp.exe` from the downloaded files.  
+- **Edit Line 411 in `server.R`**:  
+  ```r  
+  blastp_executable <- file.path("./blastp.exe")  # UNCOMMENT THIS LINE  
+  # blastp_executable <- file.path("./blastp")  # COMMENT THIS LINE  
+  ```  
+
+#### 🐧 **Linux Users**  
+- Use `blastp` from the downloaded files.  
+- Grant permissions:  
+  ```bash  
+  chmod +x blastp  
+  ```  
+- **Edit Line 411 in `server.R`**:  
+  ```r  
+  # blastp_executable <- file.path("./blastp.exe")  # COMMENT THIS LINE  
+  blastp_executable <- file.path("./blastp")       # UNCOMMENT THIS LINE  
+  ```  
+4. **Install R Packages**:
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file
    ```r
    install.packages(c("shiny", "BiocManager", "ggplot2", "seqinr"))
    BiocManager::install("Biostrings")  # For sequence analysis
    ```
 
-5. **Run the App**:
-   ```r
-   setwd("path/to/your-repo")
-   shiny::runApp()
-   ```
+5. **Run the App**
+
