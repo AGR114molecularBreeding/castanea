@@ -28,17 +28,37 @@ Run it locally for full customization or offline use:
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
 
 2. **Folder Structure**:
+To ensure the app works correctly locally, organize your files and folders as follows:
+ ```
+your_shiny_app/                # Main folder (any name)
+│
+├── app.R                                     # Main R script (combined UI + Server)
+├── Castanea crenata.fasta          # Genomic data (FASTA format)  
+├── Castanea dentata.fasta      
+├── ...
+│
+├── blastp                     # BLAST executable (Linux/macOS)  
+├── blastp.exe                 # BLAST executable (Windows)  
+│
+├── images/                    # Image files (PREDEFINED names)  
+│   ├── Ccrenata_1.jpg    # Example: Species images  
+│   ├──Ccrenata_2.jpg
+│   ├── ...
+│   └── atodos.png     # Phylogenetic tree
+│
+├── data/                               # Data files (fixed structure)  
+│   ├── final_dataframe.csv    # HSP90-data
+│   └── Tree.Newick               # Must match GitHub filenames!  
+│
+└── maps/                      # Map files (exact copies)  
+    ├── Ccrenata.cpg      
+    ├── Ccrenata.dbf
+    ├── Ccrenata.prj
+    ├── Ccrenata.qmd
+    ├── Ccrenata.shp
+    ├── Ccrenata.shx
+    └── ...         # Do NOT rename files!
    ```
-   your-repo/
-   ├── ui.R
-   ├── server.R
-   ├── genome_sequences/
-   ├── images/
-   ├── data/
-   └── tools/
-       └── blastp.exe  # Windows only
-   ```
-
 3. **Install R Packages**:
    ```r
    install.packages(c("shiny", "BiocManager", "ggplot2", "seqinr"))
