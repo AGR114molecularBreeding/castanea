@@ -5,7 +5,7 @@ Welcome to HSP90-Fagaceae: An Interactive R Shiny App for Centralizing Genomic D
 
 ## 🌐 Availability
 This app is available in two ways:
-### **Option 1: Online **
+### **Option 1: Online**
 [![Live Demo](https://img.shields.io/badge/HSP90_Fagaceae-Available-green)](https://hsp90.ext.uco.es/)  
 
-### **Option 2: Locally in R ** 
+### **Option 2: Locally in R** 
