@@ -27,37 +27,30 @@ Run it locally for full customization or offline use:
      - 📊 [HSP90 Data](https://github.com/your-username/your-repo/tree/main/data)
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
 
-2. **Folder Structure**:
-To ensure the app works correctly locally, organize your files and folders as follows:
- ```r
-your_shiny_app/                # Main folder (any name)
-│
-├── app.R                      # Main R script (combined UI + Server)
-│
-├── blastp.exe or blastp       # BLAST executable for Windows and Linux (Linux/macOS)
-│
-├── Castanea crenata.fasta     # Genomic data (FASTA format)  
-├── Castanea dentata.fasta      
-├── ...  
-│
-├── images/                    # Image files (PREDEFINED names)  
-│   ├── Ccrenata_1.jpg         # Example: Species images  
-│   ├──Ccrenata_2.jpg
-│   ├── ...
-│   └── atodos.png             # Phylogenetic tree
-│
-├── data/                      # Data files (fixed structure)  
-│   ├── final_dataframe.csv    # HSP90-data
-│   └── Tree.Newick            # Must match GitHub filenames!  
-│
-└── maps/                      # Map files (exact copies)  
-    ├── Ccrenata.cpg      
-    ├── Ccrenata.dbf
-    ├── Ccrenata.prj
-    ├── Ccrenata.qmd
-    ├── Ccrenata.shp
-    ├── Ccrenata.shx
-    └── ...         # Do NOT rename files!
+2. **Folder Structure**  
+   To ensure proper functionality, maintain this exact structure:
+   ```
+   your_shiny_app/              # Main folder (any name)
+   ├── app.R                    # Main R script (combined UI + Server)
+   ├── blastp/blastp.exe        # Blastp file for Windows or Linux
+   ├── Castanea_crenata.fasta
+   ├── Castanea_dentata.fasta
+   ├── ... (all FASTA files)
+   │
+   ├── images/
+   │   ├── Ccrenata_1.jpg
+   │   ├── Ccrenata_2.jpg
+   │   ├──... (all images files)
+   │   └── atodos.png
+   │
+   ├── data/
+   │   ├── final_dataframe.csv
+   │   └── Tree.Newick
+   │
+   └── maps/
+       ├── Ccrenata.cpg
+       ├── Ccrenata.dbf
+       ├── ... (all map files)
    ```
 3. **Install R Packages**:
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file
