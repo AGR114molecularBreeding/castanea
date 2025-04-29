@@ -53,12 +53,11 @@ Run it locally for full customization or offline use:
        ├── ... (all map files)
    ```
 3. **BLAST+ Configuration** 🔧 (**Critical!**)  
-#### **Windows Users**  
+#### 💻 **Windows Users**  
 - Use `blastp.exe` from the downloaded files.  
 - **Edit Line 411 in `server.R`**:  
   ```r  
-  blastp_executable <- file.path("./blastp.exe")  # UNCOMMENT THIS LINE  
-  # blastp_executable <- file.path("./blastp")  # COMMENT THIS LINE  
+  blastp_executable <- file.path("./blastp.exe")  # Write this    
   ```  
 
 #### 🐧 **Linux Users**  
@@ -69,8 +68,7 @@ Run it locally for full customization or offline use:
   ```  
 - **Edit Line 411 in `server.R`**:  
   ```r  
-  # blastp_executable <- file.path("./blastp.exe")  # COMMENT THIS LINE  
-  blastp_executable <- file.path("./blastp")       # UNCOMMENT THIS LINE  
+  # blastp_executable <- file.path("./blastp.exe")  # Write this   
   ```  
 4. **Install R Packages**:
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file
