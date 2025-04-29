@@ -33,23 +33,23 @@ To ensure the app works correctly locally, organize your files and folders as fo
  ```
 your_shiny_app/                # Main folder (any name)
 │
-├── app.R                                     # Main R script (combined UI + Server)
-├── Castanea crenata.fasta          # Genomic data (FASTA format)  
-├── Castanea dentata.fasta      
-├── ...
+├── app.R                      # Main R script (combined UI + Server)
 │
-├── blastp                     # BLAST executable (Linux/macOS)  
-├── blastp.exe                 # BLAST executable (Windows)  
+├── blastp.exe or blastp       # BLAST executable for Windows and Linux (Linux/macOS)
+│
+├── Castanea crenata.fasta     # Genomic data (FASTA format)  
+├── Castanea dentata.fasta      
+├── ...  
 │
 ├── images/                    # Image files (PREDEFINED names)  
-│   ├── Ccrenata_1.jpg    # Example: Species images  
+│   ├── Ccrenata_1.jpg         # Example: Species images  
 │   ├──Ccrenata_2.jpg
 │   ├── ...
-│   └── atodos.png     # Phylogenetic tree
+│   └── atodos.png             # Phylogenetic tree
 │
-├── data/                               # Data files (fixed structure)  
+├── data/                      # Data files (fixed structure)  
 │   ├── final_dataframe.csv    # HSP90-data
-│   └── Tree.Newick               # Must match GitHub filenames!  
+│   └── Tree.Newick            # Must match GitHub filenames!  
 │
 └── maps/                      # Map files (exact copies)  
     ├── Ccrenata.cpg      
