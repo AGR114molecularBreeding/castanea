@@ -35,7 +35,7 @@ Run it locally for full customization or offline use:
      - 📊 [HSP90 Data](https://github.com/your-username/your-repo/tree/main/data)
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
 
-
+<br>
 
 2. **Folder Structure**  
    To ensure proper functionality, maintain this exact structure:
@@ -62,7 +62,8 @@ Run it locally for full customization or offline use:
        ├── Ccrenata.dbf
        ├── ... (all map files)
    ```
----
+   
+<br>
    
 3. **BLAST+ Configuration** 🔧 (**Critical!**)  
 #### 💻 **Windows Users**  
@@ -81,7 +82,9 @@ Run it locally for full customization or offline use:
 - **Edit Line 411 in `server.R`**:  
   ```r  
   # blastp_executable <- file.path("./blastp.exe")  # Write this   
-  ```  
+  ```
+  <br>
+  
 4. **Install R Packages**:
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file
    ```r
