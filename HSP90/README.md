@@ -61,7 +61,6 @@ your_shiny_app/                # Main folder (any name)
     └── ...         # Do NOT rename files!
    ```
 3. **Install R Packages**:
-
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file
    ```r
    install.packages(c("shiny", "BiocManager", "ggplot2", "seqinr"))
