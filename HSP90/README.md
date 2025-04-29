@@ -29,7 +29,7 @@ Run it locally for full customization or offline use:
 
 2. **Folder Structure**:
 To ensure the app works correctly locally, organize your files and folders as follows:
- ```
+ ```r
 your_shiny_app/                # Main folder (any name)
 │
 ├── app.R                      # Main R script (combined UI + Server)
