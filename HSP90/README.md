@@ -22,7 +22,7 @@ Run it locally for full customization or offline use:
 
 ### **Steps**
 
-#### 1. **Download Files**:
+ 1. **Download Files**:
    - **Core Scripts**:
      - [`ui.R`](https://github.com/your-username/your-repo/raw/main/ui.R)
      - [`server.R`](https://github.com/your-username/your-repo/raw/main/server.R)
@@ -33,6 +33,7 @@ Run it locally for full customization or offline use:
      - 📊 [HSP90 Data](https://github.com/your-username/your-repo/tree/main/data)
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
 
+---
 
 2. **Folder Structure**  
    To ensure proper functionality, maintain this exact structure:
@@ -59,6 +60,8 @@ Run it locally for full customization or offline use:
        ├── Ccrenata.dbf
        ├── ... (all map files)
    ```
+---
+   
 3. **BLAST+ Configuration** 🔧 (**Critical!**)  
 #### 💻 **Windows Users**  
 - Use `blastp.exe` from the downloaded files.  
