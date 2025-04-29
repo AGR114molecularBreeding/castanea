@@ -13,7 +13,7 @@ This app is available in two ways:
 ### **Option 2: Locally in R** 
 Run it locally for full customization or offline use:  
 
----
+
 
 ## 🌐 How to use HSP90-Fagaceae locally?
 ### **Prerequisites**
@@ -33,7 +33,7 @@ Run it locally for full customization or offline use:
      - 📊 [HSP90 Data](https://github.com/your-username/your-repo/tree/main/data)
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
 
----
+
 
 2. **Folder Structure**  
    To ensure proper functionality, maintain this exact structure:
