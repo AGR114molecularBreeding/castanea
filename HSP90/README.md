@@ -91,6 +91,6 @@ To run this tool it is necessary to install all the libraries that are indicated
    install.packages(c("shiny", "BiocManager", "ggplot2", "seqinr"))
    BiocManager::install("Biostrings")  # For sequence analysis
    ```
-
+<br>
 5. **Run the App**
 
