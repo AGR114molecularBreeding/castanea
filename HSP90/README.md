@@ -13,6 +13,9 @@ This app is available in two ways:
 ### **Option 2: Locally in R** 
 Run it locally for full customization or offline use:  
 
+---
+
+## 🌐 How to use HSP90-Fagaceae locally?
 ### **Prerequisites**
 - **R** (>= 4.0.0): [Download](https://cran.r-project.org/)
 - **RStudio** (recommended): [Download](https://www.rstudio.com/products/rstudio/download/)
