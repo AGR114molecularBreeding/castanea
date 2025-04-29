@@ -52,8 +52,8 @@ Run it locally for full customization or offline use:
        ├── Ccrenata.dbf
        ├── ... (all map files)
    ```
-   3. **BLAST+ Configuration** 🔧 (**Critical!**)  
-#### 🪟 **Windows Users**  
+3. **BLAST+ Configuration** 🔧 (**Critical!**)  
+#### **Windows Users**  
 - Use `blastp.exe` from the downloaded files.  
 - **Edit Line 411 in `server.R`**:  
   ```r  
