@@ -19,6 +19,7 @@ Run it locally for full customization or offline use:
 ### **Prerequisites**
 - **R** (>= 4.0.0): [Download](https://cran.r-project.org/)
 - **RStudio** (recommended): [Download](https://www.rstudio.com/products/rstudio/download/)
+
 ### **Steps**
 
 1. **Download Files**:
@@ -31,6 +32,7 @@ Run it locally for full customization or offline use:
      - 🗺️ [Maps](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Maps)
      - 📊 [HSP90 Data](https://github.com/your-username/your-repo/tree/main/data)
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
+
 
 2. **Folder Structure**  
    To ensure proper functionality, maintain this exact structure:
