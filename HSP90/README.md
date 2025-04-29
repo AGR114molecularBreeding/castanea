@@ -28,6 +28,7 @@ Run it locally for full customization or offline use:
      - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
 
 2. **Folder Structure**:
+
 To ensure the app works correctly locally, organize your files and folders as follows:
  ```
 your_shiny_app/                # Main folder (any name)
