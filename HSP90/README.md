@@ -15,7 +15,7 @@ Run it locally for full customization or offline use:
 
 
 
-## 🌐 How to use HSP90-Fagaceae locally?
+## How to use HSP90-Fagaceae locally?
 ### **Prerequisites**
 - **R** (>= 4.0.0): [Download](https://cran.r-project.org/)
 - **RStudio** (recommended): [Download](https://www.rstudio.com/products/rstudio/download/)
@@ -43,21 +43,21 @@ Run it locally for full customization or offline use:
    your_shiny_app/              # Main folder (any name)
    ├── app.R                    # Main R script (combined UI + Server)
    ├── blastp/blastp.exe        # Blastp file for Windows or Linux
-   ├── Castanea_crenata.fasta
+   ├── Castanea_crenata.fasta   # Genome coding sequence files
    ├── Castanea_dentata.fasta
    ├── ... (all FASTA files)
    │
-   ├── images/
+   ├── images/                  # Images folder
    │   ├── Ccrenata_1.jpg
    │   ├── Ccrenata_2.jpg
    │   ├──... (all images files)
    │   └── atodos.png
    │
-   ├── data/
+   ├── Data/                    # Data folder
    │   ├── final_dataframe.csv
    │   └── Tree.Newick
    │
-   └── maps/
+   └── Maps/                    # Maps folder
        ├── Ccrenata.cpg
        ├── Ccrenata.dbf
        ├── ... (all map files)
@@ -67,7 +67,8 @@ Run it locally for full customization or offline use:
    
 3. **BLAST+ Configuration** 🔧 (**Critical!**)  
 #### 💻 **Windows Users**  
-- Use `blastp.exe` from the downloaded files.  
+- Use `blastp.exe` from the downloaded files.
+- It is also necessary to have the support libraries ncbi-vdb-md.dll and nghttp2.dll in the main folder for blastp.exe to run properly.
 - **Edit Line 411 in `server.R`**:  
   ```r  
   blastp_executable <- file.path("./blastp.exe")  # Write this    
