@@ -68,7 +68,7 @@ Run it locally for full customization or offline use:
 3. **BLAST+ Configuration** 🔧 (**Critical!**)  
 #### 💻 **Windows Users**  
 - Use `blastp.exe` from the downloaded files.
-- It is also necessary to have the support libraries ncbi-vdb-md.dll and nghttp2.dll in the main folder for blastp.exe to run properly.
+- It is also necessary to have the support libraries ncbi-vdb-md.dll and nghttp2.dll in the main folder for blastp.exe to run properly. These files are located in the Blastp folders
 - **Edit Line 411 in `server.R`**:  
   ```r  
   blastp_executable <- file.path("./blastp.exe")  # Write this    
