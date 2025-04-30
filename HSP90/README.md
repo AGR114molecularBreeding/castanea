@@ -24,16 +24,16 @@ Run it locally for full customization or offline use:
 
 <br>
 
- 1. **Download Files**:
+ 1. **Download the folder [HSP90-Fagaceae](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae)** , that contains:
    - **Core Scripts**:
-     - [`ui.R`](https://github.com/your-username/your-repo/raw/main/ui.R)
-     - [`server.R`](https://github.com/your-username/your-repo/raw/main/server.R)
+     - [`ui.R`](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/HSP90-Fagaceae/UI.R)
+     - [`server.R`](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/HSP90-Fagaceae/Server.R)
    - **Essential Folders**:
-     - 🧬 [Coding Sequences](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Proteomes)
-     - 🌿 [Images](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Images)
+     - 🧬 [Coding Sequences](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae/Proteomes)
+     - 🌿 [Images](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae/Images)
      - 🗺️ [Maps](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Maps)
-     - 📊 [HSP90 Data](https://github.com/your-username/your-repo/tree/main/data)
-     - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/Blastp)
+     - 📊 [HSP90 Data](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae/Data)
+     - ⚙️ [Blastp](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae/Blastp)
 
 <br>
 
