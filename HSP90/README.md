@@ -1,7 +1,7 @@
-# HSP90-Fagaceae
-## HSP90-Fagaceae: An Interactive R Shiny App for Centralizing Genomic Data of Heat Shock Protein in Fagaceae Species
+# HSP90-_Fagaceae_
+## HSP90-_Fagaceae_: An Interactive R Shiny App for Centralizing Genomic Data of Heat Shock Protein in Fagaceae Species
 
-Welcome to HSP90-Fagaceae: An Interactive R Shiny App for Centralizing Genomic Data of Heat Shock Protein in Fagaceae Species. This tool was designed to visualize and analyze genomic information on the main Fagaceae species currently available in fragmented form on servers. The purpose is to offer a user-friendly and intuitive interface that allows users to obtain data centrally, thus enabling more fluid and efficient access to information. 
+Welcome to HSP90-_Fagaceae_: An Interactive R Shiny App for Centralizing Genomic Data of Heat Shock Protein in Fagaceae Species. This tool was designed to visualize and analyze genomic information on the main Fagaceae species currently available in fragmented form on servers. The purpose is to offer a user-friendly and intuitive interface that allows users to obtain data centrally, thus enabling more fluid and efficient access to information. 
 
 The functionality description of each module is available in the [documentation](https://github.com/AGR114molecularBreeding/castanea/wiki/Documentation-of-HSP90%E2%80%90Fagaceae).
 
@@ -17,7 +17,7 @@ Run it locally for full customization or offline use:
 
 
 
-## How to use HSP90-Fagaceae locally?
+## How to use HSP90-_Fagaceae_ locally?
 ### **Prerequisites**
 - **R** (>= 4.0.0): [Download](https://cran.r-project.org/)
 - **RStudio** (recommended): [Download](https://www.rstudio.com/products/rstudio/download/)
@@ -26,7 +26,7 @@ Run it locally for full customization or offline use:
 
 <br>
 
- 1. **Download the folder [HSP90-Fagaceae](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae)** , that contains:
+ 1. **Download the folder [HSP90-_Fagaceae_](https://github.com/AGR114molecularBreeding/castanea/tree/main/HSP90/HSP90-Fagaceae)** , that contains:
    - **Core Scripts**:
      - [`ui.R`](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/HSP90-Fagaceae/UI.R)
      - [`server.R`](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/HSP90-Fagaceae/Server.R)
