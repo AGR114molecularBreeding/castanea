@@ -68,7 +68,7 @@ Run it locally for full customization or offline use:
 3. **BLAST+ Configuration** 🔧 (**Critical!**)  
 #### 💻 **Windows Users**  
 - Use `blastp.exe` from the downloaded files.
-- It is also necessary to have the support libraries ncbi-vdb-md.dll and nghttp2.dll in the main folder for blastp.exe to run properly. These files are located in the Blastp folders
+- It is also necessary to have the support libraries ncbi-vdb-md.dll and nghttp2.dll in the main folder for blastp.exe to run properly. These files are located in the Blastp folder.
 - **Edit Line 411 in `server.R`**:  
   ```r  
   blastp_executable <- file.path("./blastp.exe")  # Write this    
@@ -87,7 +87,7 @@ Run it locally for full customization or offline use:
   <br>
   
 4. **Install R Packages**:
-To run this tool it is necessary to install all the libraries that are indicated in the UI.R file
+To run this tool it is necessary to install all the libraries that are indicated in the UI.R file.
    ```r
    install.packages(c("shiny", "BiocManager", "ggplot2", "seqinr"))
    BiocManager::install("Biostrings")  # For sequence analysis
