@@ -91,8 +91,39 @@ Run it locally for full customization or offline use:
 4. **Install R Packages**:
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file.
    ```r
-   install.packages(c("shiny", "BiocManager", "ggplot2", "seqinr"))
-   BiocManager::install("Biostrings")  # For sequence analysis
+   # 1. Install CRAN packages
+   cran_packages <- c(
+   "shiny", "DT", "openxlsx", "shinyjs", "sf", "leaflet",
+   "shinycssloaders", "shinyalert", "ggplot2", "grid",
+   "png", "xml2", "bslib"
+   )
+
+   for (pkg in cran_packages) {
+   if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg)
+    }
+   }
+
+   # 2. Install Bioconductor packages
+   if (!requireNamespace("BiocManager", quietly = TRUE)) {
+   install.packages("BiocManager")
+   }
+
+   bioc_packages <- c("msa", "Biostrings")
+
+   for (pkg in bioc_packages) {
+   if (!require(pkg, character.only = TRUE)) {
+    BiocManager::install(pkg, ask = FALSE)
+    }
+   }
+
+   # 3. Install msaR from GitHub (not available on CRAN or Bioconductor)
+   if (!require("msaR", character.only = TRUE)) {
+   if (!requireNamespace("devtools", quietly = TRUE)) {
+    install.packages("devtools")
+   }
+   devtools::install_github("lcolladotor/msaR")
+   }
    ```
 <br>
 
