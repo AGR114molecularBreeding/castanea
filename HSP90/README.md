@@ -134,4 +134,8 @@ To run this tool it is necessary to install all the libraries that are indicated
 <br>
 
 5. **Run the App**
+## To start the application, click the **Run** button at the top right:
+![Figure 1](HSP90/Wiki%20figures/7.PNG)
 
+## Once clicked, the app will launch as shown below: 
+![Figure 2](HSP90/Wiki%20figures/8.PNG)
