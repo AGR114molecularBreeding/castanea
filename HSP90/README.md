@@ -138,4 +138,4 @@ To run this tool it is necessary to install all the libraries that are indicated
 ![Figure 1](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/Wiki%20figures/7.PNG)
 
 ## Once clicked, the app will launch as shown below: 
-![Figure 2](HSP90/Wiki%20figures/8.PNG)
+![Figure 2]([HSP90/Wiki%20figures/8.PNG](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/Wiki%20figures/8.PNG))
