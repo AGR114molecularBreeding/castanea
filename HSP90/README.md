@@ -94,9 +94,9 @@ To run this tool it is necessary to install all the libraries that are indicated
    # 1. Install CRAN packages
    
    cran_packages <- c(
-   "shiny", "DT", "openxlsx", "shinyjs", "sf", "leaflet",
-   "shinycssloaders", "shinyalert", "ggplot2", "grid",
-   "png", "xml2", "bslib"
+   "bslib", "DT", "ggplot2", "grid", "leaflet", "openxlsx",
+   "png", "sf", "shiny", "shinyalert",
+   "shinycssloaders", "shinyjs", "xml2"
    )
 
    for (pkg in cran_packages) {
