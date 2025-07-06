@@ -92,6 +92,7 @@ Run it locally for full customization or offline use:
 To run this tool it is necessary to install all the libraries that are indicated in the UI.R file.
    ```r
    # 1. Install CRAN packages
+   
    cran_packages <- c(
    "shiny", "DT", "openxlsx", "shinyjs", "sf", "leaflet",
    "shinycssloaders", "shinyalert", "ggplot2", "grid",
@@ -104,7 +105,10 @@ To run this tool it is necessary to install all the libraries that are indicated
     }
    }
 
+
+
    # 2. Install Bioconductor packages
+   
    if (!requireNamespace("BiocManager", quietly = TRUE)) {
    install.packages("BiocManager")
    }
@@ -118,6 +122,8 @@ To run this tool it is necessary to install all the libraries that are indicated
    }
 
    # 3. Install msaR from GitHub (not available on CRAN or Bioconductor)
+
+   
    if (!require("msaR", character.only = TRUE)) {
    if (!requireNamespace("devtools", quietly = TRUE)) {
     install.packages("devtools")
