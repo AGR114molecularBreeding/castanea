@@ -135,7 +135,7 @@ To run this tool it is necessary to install all the libraries that are indicated
 
 5. **Run the App**
 ## To start the application, click the **Run** button at the top right:
-![Figure 1](HSP90/Wiki%20figures/7.PNG)
+![Figure 1]([HSP90/Wiki%20figures/7.PNG](https://github.com/AGR114molecularBreeding/castanea/blob/main/HSP90/Wiki%20figures/7.PNG?raw=true))
 
 ## Once clicked, the app will launch as shown below: 
 ![Figure 2](HSP90/Wiki%20figures/8.PNG)
