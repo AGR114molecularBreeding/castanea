@@ -113,7 +113,7 @@ To run this tool it is necessary to install all the libraries that are indicated
    install.packages("BiocManager")
    }
 
-   bioc_packages <- c("msa", "Biostrings")
+   bioc_packages <- c("Biostrings","msa")
 
    for (pkg in bioc_packages) {
    if (!require(pkg, character.only = TRUE)) {
