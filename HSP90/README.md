@@ -56,7 +56,8 @@ Run it locally for full customization or offline use:
    │   └── atodos.png
    │
    ├── Data/                    # Data folder
-   │   ├── final_dataframe.csv
+   │   ├── baselinks.csv
+   │   ├── final_dataframe2.csv
    │   └── Tree.Newick
    │
    └── Maps/                    # Maps folder
