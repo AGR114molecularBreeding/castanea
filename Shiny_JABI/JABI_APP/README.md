@@ -1,12 +1,9 @@
-## HSP90-_Fagaceae_: An Interactive R Shiny App for Centralizing Genomic Data of Heat Shock Protein in Fagaceae Species
-
 This project is an interactive application built with R Shiny designed to centralize genomic protein data at the family and species level for user-defined studies. The tool was developed to address the fragmentation of genomic information across multiple servers. Its main objective is to provide a centralized, intuitive, and user-friendly interface that allows users to efficiently retrieve, visualize, and analyze genomic data. By integrating different data sources into a single platform, this application facilitates smoother and more efficient access to protein-related genomic information.
 
 
 ## 🌐 Availability
-## 💻 Run Locally in R
+## 💻 How to Run Locally in R
 
-## How to use locally?
 ### **Prerequisites**
 - **R** (>= 4.0.0): [Download](https://cran.r-project.org/)
 - **RStudio** (recommended): [Download](https://www.rstudio.com/products/rstudio/download/)
