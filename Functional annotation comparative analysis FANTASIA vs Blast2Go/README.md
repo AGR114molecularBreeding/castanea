@@ -1,8 +1,8 @@
-# FANTASIA vs Blast2Go: Functional annotation comparison in *Castanea sativa*
+# FANTASIA vs Blast2Go: Protein language model versus homology-based functional annotation in non-model forest trees: a case study in *Castanea sativa* Mill.
 
 Companion repository for:
 
-> **Postigo-Luque, R. et al.** Systematic comparison of protein language model-based and homology-based functional annotation in a non-model forest species. *Submitted*.
+> **Postigo-Luque, R. et al.** Protein language model versus homology-based functional annotation in non-model forest trees: a case study in *Castanea sativa* Mill.
 
 This repository contains the functional annotations, analysis scripts, and output files used in the study comparing [FANTASIA](https://github.com/FANTASIA-Annotation/FANTASIA) (protein language model-based) and Blast2Go (homology-based) functional annotation of the *Castanea sativa* (European chestnut) haplotype 1 proteome.
 
@@ -42,7 +42,9 @@ This repository contains the functional annotations, analysis scripts, and outpu
 - ggplot2, eulerr, ontologyIndex, ontologySimilarity (CRAN)
 
 **Python (v3.12)** with packages:
-- pandas, ete3, tqdm
+- pandas.
+- ete3.
+- tqdm.
 
 ### External data (not included due to size)
 
@@ -50,9 +52,9 @@ The following files are required but not included in this repository. Download t
 
 | File | Source | Size |
 |------|--------|------|
-| `Cast.1_0.hap1.clean.fa` | [TreeGenes](https://treegenesdb.org/FTP/Genomes/.Cast/v1.0/) | ~60 MB |
-| `go.obo` | [Gene Ontology](http://purl.obolibrary.org/obo/go.obo) | ~35 MB |
-| `goa_uniprot_all.gaf.gz` | [UniProt-GOA FTP](https://ftp.ebi.ac.uk/pub/databases/GO/goa/) (downloaded 22/05/2026) | ~50 GB |
+| `Cast.1_0.hap1.clean.fa` | [TreeGenes](https://treegenesdb.org/FTP/Genomes/.Cast/v1.0/)
+| `go.obo` | [Gene Ontology](http://purl.obolibrary.org/obo/go.obo)
+| `goa_uniprot_all.gaf.gz` | [UniProt-GOA FTP](https://ftp.ebi.ac.uk/pub/databases/GO/goa/) (downloaded 22/05/2026) 
 
 ### Execution order
 
@@ -63,12 +65,6 @@ The following files are required but not included in this repository. Download t
 ```
 
 Step 1 exports `results/go_terms_to_classify.tsv`, which is the input for step 2. Step 2 produces `results/taxon_map_v2.tsv`, which is the input for step 3. All output files in `results/` are provided so that each step can also be run independently.
-
-## Citation
-
-If you use these scripts or data, please cite:
-
-> Postigo-Luque, R. et al. Systematic comparison of protein language model-based and homology-based functional annotation in a non-model forest species. *Submitted*.
 
 ## Funding
 
